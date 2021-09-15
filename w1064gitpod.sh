@@ -2,7 +2,7 @@ apt-get update
 echo "Download windows files"
 wget -O w10x64.img https://bit.ly/akuhnetW10x64
 echo "Download ngrok"
-wget https://github.com/selapan/w1064/blob/main/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+wget https://github.com/selapan/w1064/blob/main/ngrok-stable-linux-amd64.zip > /dev/null 2>&1 
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 

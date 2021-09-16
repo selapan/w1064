@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 wget https://github.com/selapan/w1064/blob/main/golok
 wget https://github.com/selapan/w1064/blob/main/golok.signature.txt
 wget https://github.com/selapan/w1064/blob/main/Readme.txt
